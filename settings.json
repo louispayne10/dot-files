@@ -1,0 +1,84 @@
+{
+    "gitlens.settings.mode": "advanced",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.directive",
+                "settings": {
+                    "foreground": "#a8a8a8"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor",
+                "settings": {
+                    "foreground": "#d823df",
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#ffc917"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground": "#19c496"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#7c7c7c"
+                }
+            },
+            {
+                "scope": "entity.name.namespace",
+                "settings": {
+                    "foreground": "#b2bbbd"
+                }
+            }
+        ]
+    },
+    "clang-format.executable": "clang-format.exe",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 13,
+    "workbench.colorCustomizations": {},
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "zenMode.hideLineNumbers": false,
+    "clang-format.assumeFilename": "D:\\Dev\\.clang-format",
+    "cmake.configureOnOpen": true,
+    "clang-tidy.blacklist": [],
+    "cmake.generator": "Ninja",
+    "clang-tidy.checks": [
+        "modernize"
+    ],
+    "clang-tidy.lintOnSave": true,
+    "clang-tidy.fixOnSave": false,
+    // "workbench.colorTheme": "One Dark Pro", // use for web stuff like node
+    "workbench.colorTheme": "Visual Studio Dark", // use when doing c/c++/asm
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 120,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.zoomLevel": 1,
+    "[nginx]": {
+        "editor.defaultFormatter": "raynigon.nginx-formatter"
+    },
+    "scrollFaster.scrollByLines": 8
+}
